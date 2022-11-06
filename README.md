@@ -1,0 +1,49 @@
+# ChiZenith
+ An icon pack in the style of amber monochrome computer monitors
+
+![ChiZenith-Logo](ChiZenith-Logo.png)
+
+![CC BY-SA Banner](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
+---
+
+**ChiZenith** ("[Chicago](https://en.wikipedia.org/wiki/Chicago_(typeface)) [Zenith](https://en.wikipedia.org/wiki/Zenith_Data_Systems)") is an icon set that tries to recreate the look of old amber monochrome monitors. The intention behind this is to enable users of modern systems to emulate the aesthetic of the these displays by providing icons for newer programs that fit with this style.
+
+While these may use some preexisting icons as a base (such as the file icon), **all icons in this repo must be original**. Please don't just recolor the original icons and push them here.
+
+## Standards
+
+### Design
+
+To keep the look of the icons consistent, please make sure your additions meet these standards:
+
+* .ico file type
+* Create the icons in 32x32 pixel image size, but export them in 256x256
+* [Obra Dinn - Zenith ZVM 1240](https://lospec.com/palette-list/1bit-monitor-glow) Palette
+
+### Naming
+
+To ensure that any icon can be easily searched for, use this naming scheme:
+
+`[Author] . [Program Name] - [Variant]`
+
+for example, for Steam, use
+
+`Valve.Steam.ico`
+
+if a base icon for a program already exists and you want to add a variant, suffix a variant name to its name with a dash. So for our example, you might use
+
+`Valve.Steam-Dark.ico`
+
+If you're in doubt about the author of a program, not sure which to use, or just want to quickly look it up, I would recommend using the IDs off the [winget-pkgs](https://github.com/microsoft/winget-pkgs) repo, after which this scheme is modeled.
+
+## Instructions
+
+### MacOS
+
+The method listed below is the vanilla method provided by the OS. If you want to apply these custom icons to system apps, I would recommend [IconChamp](https://www.macenhance.com/iconchamp.html) or a similar application of your choice. For IconChamp users, an .ict file is provided in the root folder which will install the theme automatically when opened.
+
+1. Open you application folder (Macintosh HD -> Applications)
+2. Select the application whose icon you want to change and open its info panel (⌘I)
+3. Open the .ico file you want to apply to the app in Preview
+4. Select the desired icon size and copy it (⌘C)
+5. In the app's info window, select the application icon in the upper left corner and paste the icon (⌘V)
